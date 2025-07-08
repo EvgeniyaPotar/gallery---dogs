@@ -76,9 +76,7 @@ const UpdateCards = () => {
           <button onClick={updateCards}>Обновить</button>
         </div>
       </div>
-      <>
-        <CardDog numberCards={updateNumberCards} selectedBreed={selected} />
-      </>
+      <CardDog numberCards={updateNumberCards} selectedBreed={selected} />
     </>
   );
 };
